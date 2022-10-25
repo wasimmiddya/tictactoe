@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTakToe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="./main.js"></script>
+    <!-- <i class="fa-solid fa-xmark"></i> -->
+    <!-- <i class="fa-regular fa-circle"></i> -->
+</head>
+<body>
+    <main>
+        <!-- Start Menu -->
+        <div class="player-select-model ">
+            <div class="player-select-text">
+                <span>Select your player</span>
+            </div>
+            <div class="player-select-section">
+                <button class="player-select-btn" id="playerX">Player (X)</button>
+                <button class="player-select-btn" id="playerO">Player (O)</button>
+            </div>
+        </div>
+        
+        <!-- Winner model -->
+        <div class="winner-model ">
+            <span class="winner-text">Plyer x has won the game</span>
+            <button id="replay-btn">Replay</button>
+        </div>
+
+        <!-- Game board -->
+        <!-- The board or the area where the game will be played -->
+        <div class="game-board-container ">
+            <div class="players-turn-board ">
+                <div class="turnX turnActive">Player X</div>
+                <div class="turnO ">Player O</div>
+            </div>
+            <div class="game-board ">
+                <section class="row">
+                    <div class="box box1"></div>
+                    <div class="box box2"></div>
+                    <div class="box box3"></div>
+                </section>
+                <section class="row">
+                    <div class="box box4"></div>
+                    <div class="box box5"></div>
+                    <div class="box box6"></div>
+                </section>
+                <section class="row">
+                    <div class="box box7"></div>
+                    <div class="box box8"></div>
+                    <div class="box box9"></div>
+                </section>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
